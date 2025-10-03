@@ -1,9 +1,53 @@
 main:
-  - title: "Posts"
-    url: /posts/
+  - title: "Docs"
+    url: /docs/
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "About"
-    url: /about/
+
+
+docs:
+  - title: Project Unidoc
+    children:
+      - title: "Unidoc Overview"
+        url: /docs/quick-start-guide/
+      - title: "Adopting Unidoc"
+        url: /docs/structure/
+      - title: "RPA Standards"
+        url: /docs/installation/
+      - title: "Extras"
+        url: /docs/upgrading/
+
+  - title: BPMN Share
+    children:
+      - title: "Configuration"
+        url: /docs/configuration/
+      - title: "Navigation"
+        url: /docs/navigation/
+      - title: "UI Text"
+        url: /docs/ui-text/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
+  - title: Ingestor
+    children:
+      - title: "Working with Posts"
+        url: /docs/posts/
+      - title: "Working with Pages"
+        url: /docs/pages/
+      - title: "Working with Collections"
+        url: /docs/collections/
+      - title: "Helpers"
+        url: /docs/helpers/
+      - title: "Utility Classes"
+        url: /docs/utility-classes/
+
+  - title: mkdocs-json-jinja
+    children:
+      - title: "Stylesheets"
+        url: /docs/stylesheets/
+      - title: "JavaScript"
+        url: /docs/javascript/
