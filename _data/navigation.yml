@@ -1,25 +1,27 @@
 main:
   - title: "Docs"
     url: /docs/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Products"
+    url: /products/
+  # - title: "Categories"
+  #   url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
 
 
 docs:
-  - title: Project Unidoc
-    children:
-      - title: "Unidoc Overview"
-        url: /docs/quick-start-guide/
-      - title: "Adopting Unidoc"
-        url: /docs/structure/
-      - title: "RPA Standards"
-        url: /docs/installation/
-      - title: "Extras"
-        url: /docs/upgrading/
+  # - title: Project Unidoc
+  #   children:
+  #     - title: "Unidoc Overview"
+  #       url: /docs/quick-start-guide/
+  #     - title: "Adopting Unidoc"
+  #       url: /docs/structure/
+  #     - title: "RPA Standards"
+  #       url: /docs/installation/
+  #     - title: "Extras"
+  #       url: /docs/upgrading/
 
-  - title: BPMN Share
+  - title: BPMN Architect
     children:
       - title: "Configuration"
         url: /docs/configuration/
@@ -32,22 +34,22 @@ docs:
       - title: "Layouts"
         url: /docs/layouts/
 
-  - title: Ingestor
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
+  # - title: Ingestor
+  #   children:
+  #     - title: "Working with Posts"
+  #       url: /docs/posts/
+  #     - title: "Working with Pages"
+  #       url: /docs/pages/
+  #     - title: "Working with Collections"
+  #       url: /docs/collections/
+  #     - title: "Helpers"
+  #       url: /docs/helpers/
+  #     - title: "Utility Classes"
+  #       url: /docs/utility-classes/
 
-  - title: mkdocs-json-jinja
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
+  # - title: mkdocs-json-jinja
+  #   children:
+  #     - title: "Stylesheets"
+  #       url: /docs/stylesheets/
+  #     - title: "JavaScript"
+  #       url: /docs/javascript/
